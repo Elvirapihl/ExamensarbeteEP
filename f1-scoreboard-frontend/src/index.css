@@ -1,0 +1,215 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
+form {
+  max-width: 400px;
+  margin: 3rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  min-height: 65vh;
+
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background: #d12923;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.landing {
+  text-align: center;
+  padding: 4rem;
+  min-height: 30vh;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e63030e0;
+  color: white;
+  border-radius: 1%;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image:url(https://static.vecteezy.com/ti/gratis-vektor/p1/10683228-svart-vit-horisontell-rutigt-schack-styrelse-repeterbar-textur-bred-rutig-vector.jpg);
+  color: rgb(244, 82, 82);
+  width: 100%;
+  border-radius: 1%;
+  margin-top: auto;
+}
+.footer > p{
+  background-color: #0a080897;
+  width: 180px;
+  border-radius: 2%;
+}
+
+.main {
+  padding: 2rem;
+  text-align: center;
+  flex: 1; 
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-button {
+  background-color: #ccc;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.login-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+  margin: 0 auto;
+  
+}
+
+.login-form input {
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  
+}
+.landing-banner {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px;
+}
+.f1-icon {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+.hero-banner {
+  position: relative;
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.hero-text p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+
+}
+
+.about-container h1 {
+  font-size: 2rem;
+  color: #d50000;
+  margin-bottom: 1rem;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.about-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+.drivers{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.constructor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.header > a{
+  background: #f07a76;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+ 
+}
